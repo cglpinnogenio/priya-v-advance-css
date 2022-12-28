@@ -1,0 +1,148 @@
+/* iconpart */
+
+.mainiconContainer{
+display: flex;
+justify-content: space-evenly;
+flex-wrap: wrap;
+margin-left: 1rem;
+}
+.subiconContainer{
+width: 11rem;  
+height: 13rem;    
+}
+.iconContainer{
+display: flex;
+flex-direction: column;
+width: 4rem; 
+height: 4rem;
+background: #F3FCF7; 
+border-radius: 0.5rem; 
+margin-left: 1rem;
+margin-bottom: 1rem; 
+}
+.icon{
+width: 4rem; 
+height: 4rem; 
+padding:1rem;
+}
+.icon_contentContainer h4{
+font-size: 1rem;
+font-weight: 400;
+}
+.icon_contentContainer p{
+font-size: 0.8rem;
+}
+
+/* fruit_pic_bullet part */
+
+.fruit_veg_container{
+display: flex;
+flex-direction: column;
+}
+.fruit_veg_picContainer{
+ /* position: relative;     
+z-index: 1;     */
+}
+.fruit_veg_picture{    
+background-color: gainsboro;
+width: 100%;
+/* position: absolute;
+top: -2rem;
+left: 2rem;
+right: 2rem;
+bottom: 2rem;
+z-index: 2; */
+}
+.benefitContainer{
+font-weight: 600;
+font-size: 1rem;
+color: #1D1D1F;
+text-align: center;
+margin-top: 3rem;
+}
+.list_heading_container{
+margin-top: 1.5rem;
+margin-bottom: 3rem;      
+font-weight: 600;
+font-size: 2.9rem;
+text-align: center;
+color: #1D1D1F;      
+}
+.list_container{
+margin-left: 2rem;    
+} 
+ul {
+padding-left: 2.5rem;
+list-style-type: none;
+}
+    
+ul li {
+padding-left: 2.5rem;
+background-image: url("assets/Icon\ awesome-check.svg");
+background-position: 0 0;
+background-size: 1.6rem 1.6rem;
+background-repeat: no-repeat;
+font-size: 1.2rem;
+padding-bottom: 1.5rem;
+color: #1D1D1F;
+}
+
+
+/* Fruit-juice part */
+.fruitjuiceContainer{
+ display: flex; 
+ flex-direction: column;    
+}
+.number_heading_container{
+margin-top: 1.5rem;
+margin-bottom: 3rem;      
+font-weight: 600;
+font-size: 3rem;
+text-align: center;
+color: #1D1D1F;      
+}
+
+.mainNumberConatiner{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+.numberContentContainer{
+display: flex;
+flex-direction: column;
+margin-bottom: 2rem;
+}
+.numberContaiener{
+font-weight: 600;
+font-size: 2.3rem;
+color: #06C167;
+margin-bottom: 0.8rem;
+}
+.number_five_Contaiener{
+font-weight: 600;
+font-size: 2.3rem;
+color: #06C167;
+margin-bottom: 0.8rem;
+margin-left: 1rem;
+}
+.contentContainer{
+font-weight: 400;
+font-size: 0.8rem;
+color: #1D1D1F;
+opacity: 0.65;
+}
+.second_buttenContainer {
+text-align: center;
+border: none;
+width: 24rem; 
+height: 5rem;
+background: #57b15f;
+font-size: 1.2rem;
+font-family: 'Inter';
+color: #FFFFFF;
+margin-top: 2rem;
+margin-bottom: 4rem;
+margin-left: 4rem;
+}
+      
+     

@@ -1,0 +1,14 @@
+.image_content_container{
+    display: flex;
+    flex-direction: column;
+}
+.secondbuttoncontentContainer h1{
+font-weight: 500;
+font-size: 3rem;
+width: 60%;
+}
+.secondbuttoncontentContainer p{
+font-size: 1rem;  
+text-align: center;  
+width: 40%;
+}
