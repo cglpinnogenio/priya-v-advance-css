@@ -190,6 +190,16 @@ width: 30rem;
 align-self: center;
 margin-left: 10rem;
 }
+.fruit_veg_picContainer{
+  background-color: #F3FAFB;
+  position: relative;
+  height: 50rem;
+ }
+ .fruit_juice_pic_container{
+  position: relative;
+  background-color: #F3FAFB;
+   height: 50rem;  
+  }
 
 } 
 @media screen and (min-width: 768px){
@@ -287,4 +297,26 @@ justify-content: space-evenly;
      margin-left: 4rem;
      }
 
+}
+@media screen and (min-width: 768px){
+  .subiconContainer{
+    width: 15rem;  
+    height: 17rem;    
+    }
+    .icon_contentContainer p{
+      font-size: 1rem;
+      }
+      .iconContainer{
+        display: flex;
+        flex-direction: column;
+        width: 4rem; 
+        height: 4rem;
+        background: #F3FCF7; 
+        border-radius: 0.5rem; 
+        margin-left: 1rem;
+        margin-bottom: 1rem; 
+        }
+        .icon_contentContainer{
+          width: 14rem;
+        } 
 }

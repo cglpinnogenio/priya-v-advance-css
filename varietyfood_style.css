@@ -105,6 +105,7 @@ font-size: 1rem;
 /* Ingredient part */
 .ingredient_container{
 background: url(assets/food_background_image.svg);
+background-repeat:no-repeat ;
 font-weight: 500;
 font-size: 35px;
 text-align: center;
@@ -152,6 +153,10 @@ padding-bottom: 5rem;
     text-align: center;
     padding-bottom: 2rem;
 }
+.mainbuttoncontainer{
+    display: flex;
+    flex-direction: column;
+}
 .emailbutton_container{
     text-align: center;
     border: none;
@@ -185,40 +190,25 @@ padding-bottom: 5rem;
 }
   
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 @media screen and (min-width: 768px){
 .image_container{
-    width: 20rem;
-    height: 20rem;
+    width: 19rem;
+    height: 19rem;
 }
 .fruit_image{
-    width: 20rem;
-    height:20rem ;
+    width: 19rem;
+    height:19rem ;
 }
 .secondbuttoncontentContainer{
-width: 20rem;
-height:20rem ;
+width: 19rem;
+height:19rem ;
 }
 .main_image_content_container{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    width: 50%;
-    min-width: 76.8rem;
+    width: 100%;
+    min-width: 70rem;
 }
 
 .image_content_container{
@@ -239,5 +229,81 @@ height:20rem ;
     margin-top: 2rem;
     margin-bottom: 3rem;
     }
-    .third_buttenContainer {
+.third_buttenContainer {}
+
+
+/* product part */
+.mainproduct_Container{
+    display: flex;  
+    flex-direction: row;
+}
+.ourproduct_container{
+   width: 20rem;
+   }
+.fourth_buttenContainer{
+    width: 9rem;
+    margin-left: 0;
+    padding-left: 1rem; 
+}
+
+/* ingredient part */
+.ingredient_container{
+    background: url(d/assets/));
+    background-repeat:no-repeat ;
+    font-weight: 500;
+    font-size: 35px;
+    text-align: center;
+    color: #FFFFFF;
+    padding-top: 6rem;
+    padding-bottom: 5rem;
+    width: 100%;
+    min-width: 76rem;
+    }
+/* footer part */
+.footer_container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    align-items: baseline;
+}
+.footer_container p{
+    font-size: 0.8rem;  
+     text-align: start;  
+    width: 15rem;
+}
+.foodies_container h1{
+   text-align: start;
+}
+.foodies_container{
+  height: 100%;  
+}
+.mainbuttoncontainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0 ;
+}
+.emailbutton_container{
+    width: 11rem; 
+    height: 2.5rem; 
+    text-align: start; 
+    padding-left: 2rem; 
+    margin: 2px;
+}
+.subscribebutton_container{
+    font-size: 1rem;
+    width: 8rem; 
+    height: 2.5rem;
+    margin: 2px;
+}
+.get_container h1{
+text-align: start;
+}
+.get_container p{
+    width: 19rem;
+    text-align: start;
+   font-size: 0.9rem;
+}
 }         
