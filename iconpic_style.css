@@ -40,17 +40,18 @@ display: flex;
 flex-direction: column;
 }
 .fruit_veg_picContainer{
- background-color: #F3FAFB;;
+ background-color: #F3FAFB;
+ position: relative;
+ height: 30rem;
 }
 .fruit_veg_picture{    
 
-width: 100%;
-/* position: absolute;
-top: -2rem;
-left: 2rem;
-right: 2rem;
-bottom: 2rem;
-z-index: 2; */
+width: 80%;
+ position: absolute;
+top: -3rem;
+left: 50%;
+transform: translateX(-50%); 
+
 }
 
 .benefitContainer{
@@ -93,6 +94,18 @@ color: #1D1D1F;
  display: flex; 
  flex-direction: column;    
 }
+.fruit_juice_pic_container{
+  position: relative;
+  background-color: #F3FAFB;
+   height: 30rem;  
+  }
+  .fruit_juice_picture{
+    width: 80%;
+    position: absolute;
+   top: -3rem;
+   left: 50%;
+   transform: translateX(-50%); 
+  }
 .number_heading_container{
 margin-top: 1.5rem;
 margin-bottom: 3rem;      
@@ -184,20 +197,29 @@ margin-left: 10rem;
  display: flex;
 flex-direction:row;
 justify-content: space-evenly;
+margin-bottom: 2rem;
+ }
+ .fruit_veg_picContainer{
+  background-color: #F3FAFB;
+  position: relative;
+  height: 30rem;
+  width: 40%;
+  max-width: 50rem;
  }
  .fruit_veg_picture{    
-width: 100%;
-padding-left: 2.5rem;
-padding-right: 2.5rem;
-padding-bottom: 3rem;
-}
+ width: 80%;
+ max-width: 40rem;
+ position: absolute;
+ top: -1rem;
+ left: 50%;
+ transform: translateX(-50%); 
+ height: 30rem;
+ }
+ 
 .bullet_container{
  width: 40%;     
 }
-.fruit_veg_picContainer{
-background-color: #F3FAFB;
-width: 40%;
-}
+
 .benefitContainer{
 font-weight: 600;
 font-size: 1rem;
@@ -214,21 +236,7 @@ margin-top: 3rem;
       .list_container{
       margin-left: 2rem;    
       } 
-      ul {
-      padding-left: 2.5rem;
-      list-style-type: none;
-      }
-          
-      ul li {
-      padding-left: 2.5rem;
-      background-image: url("assets/Icon\ awesome-check.svg");
-      background-position: 0 0;
-      background-size: 1.6rem 1.6rem;
-      background-repeat: no-repeat;
-      font-size: 1rem;
-      padding-bottom: 1rem;
-      color: #1D1D1F;
-      }
+     
       /* Fruit-juice part */
 .fruitjuiceContainer{
  display: flex; 
@@ -236,14 +244,20 @@ flex-direction: row-reverse;
 justify-content:space-evenly;  
 }
 .fruit_juice_pic_container{
-width: 40%;
 background-color: #F3FAFB;
-   
+position: relative;
+height: 32rem;
+width: 40%;
+max-width: 50rem;  
 }
 .fruit_juice_picture{
-  width: 100%;
-  padding-left: 3rem;
-  padding-bottom: 3rem;
+  width: 80%;
+  max-width: 40rem;
+  position: absolute;
+  top: -1rem;
+  left: 50%;
+  transform: translateX(-38%); 
+  height: 30rem;
 
 }
 .veggies_number_container{

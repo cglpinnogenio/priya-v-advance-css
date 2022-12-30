@@ -7,11 +7,17 @@
     display: flex;
     flex-direction:column;
 }
+.image_container{
+    width: 100%; 
+}
+.fruit_image{
+    width: 100%;
+}
 .secondbuttoncontentContainer{
 background: #F0F1EC;
 width: 100%;
 height: 25rem;
-border: 1.5px solid #06C167;;
+border: 1.5px solid #06C167;
 }
 .secondbuttoncontentContainer h1{
 font-weight: 500;
@@ -37,6 +43,163 @@ height: 3rem;
 margin-left: 3rem;
 padding-left: 1rem;
 }
+
+
+
+/* our product part */
+.mainproduct_Container{
+  display: flex;  
+  flex-direction: column;
+}
+.ourproduct_container{
+ display: flex; 
+ flex-direction: column; 
+ align-items: center; 
+ border: 1.5px solid  #e2e0e0;
+ padding-top: 2rem;
+ padding-bottom: 2rem;
+ margin-left: 2rem;
+ margin-right: 2rem;
+ margin-bottom: 2rem;
+}
+.fruit_picture{
+ width: 10rem; 
+ height: 10rem;  
+}
+.starpicture{
+ width: 9rem;
+ height: 1rem;   
+}
+.product_content_container{
+font-size: 1rem;
+padding-top: 2rem;
+}
+
+.dollar_container{
+ display: flex; 
+ justify-content: space-around; 
+ padding-top: 2rem; 
+}
+.ashdollar_container{
+color: #767675; 
+font-size: 1rem; 
+padding-right: 1rem; 
+text-decoration-line: line-through; 
+}
+
+.greendollar_container{
+color: #06C167;
+font-size: 1rem;
+}
+.fourth_buttenContainer{
+    border: 1.5px solid #06C167;
+    font-size: 1rem;
+    color: #57b15f;
+    width: 11rem;
+    height: 3rem;
+    margin-left: 3rem;
+    padding-left: 1rem; 
+    margin-top: 2rem; 
+}
+
+/* Ingredient part */
+.ingredient_container{
+background: url(assets/food_background_image.svg);
+font-weight: 500;
+font-size: 35px;
+text-align: center;
+color: #FFFFFF;
+padding-top: 6rem;
+padding-bottom: 5rem;
+}
+
+/* footer part */
+
+.footer_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5rem;
+}
+.foodies_container h1{
+    font-weight: 500;
+  font-size: 2.5rem;  
+  color: #06C167;
+}
+.footer_container h1{
+    font-weight: 500;
+    font-size: 1.5rem; 
+    text-align: center; 
+    padding-bottom: 2rem; 
+}
+.footer_container a{
+  font-size: 0.8rem;  
+  text-align: center; 
+}
+.footer_container p{
+    font-size: 0.8rem;  
+    text-align: center; 
+    width: 15rem;
+}
+.about_container{
+    margin-bottom: 2rem;
+}
+.company_container{
+    margin-bottom: 2rem;
+}
+.get_container p{
+    width: 18rem;
+    text-align: center;
+    padding-bottom: 2rem;
+}
+.emailbutton_container{
+    text-align: center;
+    border: none;
+    width: 25rem; 
+    height: 4rem;
+    background: #F0F1EC;;
+    font-size: 1.2rem;
+    font-family: 'Inter';
+    color: #1D1D1F;
+    opacity: 0.51;
+    margin-bottom: 1rem;
+    margin-left: 5rem;
+    
+}
+.subscribebutton_container{
+    text-align: center;
+    border: none;
+    width: 25rem; 
+    height: 4rem;
+    background: #57b15f;
+    font-size: 1.2rem;
+    font-family: 'Inter';
+    color: #FFFFFF;
+    margin-left: 5rem;
+}
+.copy{
+    font-size: 0.8rem;
+    text-align:center ;
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+}
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media screen and (min-width: 768px){
 .image_container{
     width: 20rem;
@@ -54,6 +217,8 @@ height:20rem ;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    width: 50%;
+    min-width: 76.8rem;
 }
 
 .image_content_container{
@@ -62,8 +227,8 @@ height:20rem ;
 }
 .secondbuttoncontentContainer h1{
     font-weight: 500;
-    font-size: 3rem;
-    width: 10rem;
+    font-size: 2.5rem;
+    width: 15rem;
     margin-left: 3rem;
     margin-top: 2rem;
     }
