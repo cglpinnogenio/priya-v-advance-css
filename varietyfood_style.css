@@ -16,10 +16,34 @@
     width: 100%;
 }
 .secondbuttoncontentContainer{
-background: #F0F1EC;
+background: #f3fcf7;
 width: 100%;
 height: 25rem;
 border: 1.5px solid #06C167;
+}
+.secondbuttoncontentContainer_three{
+    background: #f3fcf7;
+width: 100%;
+height: 25rem;
+border: 1.5px solid #06C167;
+}
+.secondbuttoncontentContainer_four{
+    background: #f3fcf7;
+    width: 100%;
+    height: 25rem;
+    border: 1.5px solid #06C167;
+}
+.mixfruitimage{
+   width: 100%;
+}
+.lemonimage{
+    width: 100%;
+}
+.image_container_three{
+    width: 100%;
+}
+.image_container_four{
+    width: 100%;
 }
 .secondbuttoncontentContainer_head{
 font-weight: 500;
@@ -37,7 +61,7 @@ margin-bottom: 3rem;
 }
 .third_buttenContainer {
 border: none;
-background:#fcf5f5 ;
+background:#e6f9f0 ;
 font-size: 1rem;
 color: #57b15f;
 width: 11rem;
@@ -81,6 +105,17 @@ padding-left: 1rem;
  margin-right: 3rem;
  margin-bottom: 2rem;
 }
+.ourproduct_container_one{
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    border: 1.5px solid  #06C167;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    margin-bottom: 2rem;
+   }
 .fruit_picture{
  width: 10rem; 
  height: 10rem;  
@@ -272,13 +307,13 @@ height:19rem ;
 .secondbuttoncontentContainer_three{
     width: 19rem;
     height:19rem ;
-    background: #F0F1EC;
+    background: #f3fcf7;
     border: 1.5px solid #06C167;
 }
 .secondbuttoncontentContainer_four{
     width: 19rem;
     height:19rem ;
-    background: #F0F1EC;
+    background: #f3fcf7;
     border: 1.5px solid #06C167;
 }
 .mixfruitimage{
@@ -288,6 +323,14 @@ height:19rem ;
 .lemonimage{
     width: 17.5rem;
     height:19rem ;
+}
+.image_container_three{
+width: 17.5rem;
+height: 19rem;
+}
+.image_container_four{
+width: 19rem;
+height: 19rem;
 }
 .secondbuttoncontentContainer_head{
     font-weight: 500;
@@ -328,6 +371,11 @@ height:19rem ;
    width: 20rem;
    margin-left: 1rem;
    margin-right: 1rem;
+   }
+   .ourproduct_container_one{
+    width: 20rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
    }
 .fourth_buttenContainer{
     width: 9rem;
