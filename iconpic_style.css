@@ -178,6 +178,10 @@ margin-left: 4rem;
      
 
 @media screen and (min-width: 500px){
+  .mainiconContainer{
+    width: 75%;
+    align-self: center;
+    }
  .subiconContainer{
 width: 18rem;  
 height: 20rem;    
@@ -245,24 +249,25 @@ margin-left: 10rem;
 flex-direction:row;
 justify-content: space-evenly;
 margin-bottom: 2rem;
+width: 75%;
+align-self: center;
  }
  .fruit_veg_picContainer{
   background-color: #F3FAFB;
   position: relative;
   height: 30rem;
-  width: 40%;
+  width: 36%;
   max-width: 50rem;
  }
  .fruit_veg_picture{    
  width: 80%;
  max-width: 40rem;
  position: absolute;
- top: -1rem;
+ top: 0;
  left: 50%;
  transform: translateX(-50%); 
  height: 30rem;
- }
- 
+ } 
 .bullet_container{
  width: 40%;     
 }
@@ -272,13 +277,17 @@ font-weight: 600;
 font-size: 1rem;
 color: #1D1D1F;
 margin-top: 3rem;
+text-align: start;
+margin-left: 5rem;
 }
 .list_heading_container{
       margin-top: 1.5rem;
       margin-bottom: 3rem;      
       font-weight: 600;
       font-size: 2.8rem;
-      color: #1D1D1F;      
+      color: #1D1D1F; 
+      text-align: start;
+      margin-left: 5rem;     
       }
       .list_container{
       margin-left: 2rem;    
@@ -288,30 +297,34 @@ margin-top: 3rem;
 .fruitjuiceContainer{
  display: flex; 
 flex-direction: row-reverse;  
-justify-content:space-evenly;  
+justify-content:space-evenly; 
+width: 75%; 
+align-self: center;
 }
 .fruit_juice_pic_container{
-background-color: #F3FAFB;
-position: relative;
-height: 32rem;
-width: 40%;
-max-width: 50rem;  
-}
-.fruit_juice_picture{
-  width: 80%;
-  max-width: 40rem;
-  position: absolute;
-  top: -1rem;
-  left: 50%;
-  transform: translateX(-38%); 
-  height: 30rem;
-
-}
+  background-color: #F3FAFB;
+  position: relative;
+  height: 32rem;
+  width: 34%;
+  max-width: 50rem;  
+  }
+  .fruit_juice_picture{
+    width: 80%;
+    max-width: 40rem;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-36%); 
+    height: 28rem;
+  
+  }
 .veggies_number_container{
    width: 50%;   
 }
 .number_heading_container{
-  width: 80%;       
+  width: 80%; 
+  text-align: start;
+  margin-left: 5rem;      
 }
      
 .mainNumberConatiner{

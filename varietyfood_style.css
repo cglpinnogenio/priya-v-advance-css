@@ -1,3 +1,21 @@
+.feature_Container{
+    font-weight: 600;
+    font-size: 1rem;
+    color: #1D1D1F;
+    margin-top: 3rem;
+    text-align: center;
+    
+    }
+    .veggie_container{
+          margin-top: 1.5rem;
+          margin-bottom: 3rem;      
+          font-weight: 600;
+          font-size: 2.8rem;
+          color: #1D1D1F; 
+          text-align: center;
+          width: 80%; 
+          margin-left: 3rem;  
+          }
 .main_image_content_container{
     display: flex;
     flex-direction: column;
@@ -211,6 +229,7 @@ padding-bottom: 5rem;
     padding-bottom: 2rem; 
 }
 .footer_container a{
+    width: 100%;
   font-size: 0.8rem;  
   text-align: center; 
 }
@@ -270,67 +289,86 @@ padding-bottom: 5rem;
   
 
 @media screen and (min-width: 768px){
+    .feature_Container{
+        font-weight: 600;
+        font-size: 1rem;
+        color: #1D1D1F;
+        margin-top: 3rem;
+        text-align: center;
+        margin-left: 5rem;
+        }
+        .veggie_container{
+              margin-top: 1.5rem;
+              margin-bottom: 3rem;      
+              font-weight: 600;
+              font-size: 2.8rem;
+              color: #1D1D1F; 
+              text-align: center;
+              margin-left: 5rem;     
+              }
 .image_container{
-    width: 19rem;
-    height: 19rem;
+    width: 50%;
+  
 }
 .fruit_image{
-    width: 19rem;
-    height:19rem ;
+    width: 100%;
+   
 }
 .secondbuttoncontentContainer{
-width: 17.5rem;
-height:19rem ;
+width: 50%;
+height: 100%;
 }
 .main_image_content_container{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    width: 100%;
+    width: 75%;
     min-width: 70rem;
-    margin-left: 5rem;
-    margin-right: 5rem;
+    align-self:center ;
 }
 
 .image_content_container{
     display: flex;
     flex-direction:row;
+    width: 50%;
 }
 .image_content_container_three{
     display: flex;
     flex-direction:row-reverse;
+    width: 50%;
 }
 .image_content_container_four{
     display: flex;
     flex-direction:row-reverse;
+    width: 50%;
 }
 .secondbuttoncontentContainer_three{
-    width: 19rem;
-    height:19rem ;
+    width: 50%;
+    height: 100%;
     background: #f3fcf7;
     border: 1.5px solid #06C167;
 }
 .secondbuttoncontentContainer_four{
-    width: 19rem;
-    height:19rem ;
+    width: 50%;
+   height: 100%;
     background: #f3fcf7;
     border: 1.5px solid #06C167;
 }
 .mixfruitimage{
-    width: 17.5rem;
-    height:19rem ;
+    width: 100%;
+   
 }
 .lemonimage{
-    width: 17.5rem;
-    height:19rem ;
+    width: 100%;
+  
 }
 .image_container_three{
-width: 17.5rem;
-height: 19rem;
+width: 50%;
+
 }
 .image_container_four{
-width: 19rem;
-height: 19rem;
+width: 50%;
+
 }
 .secondbuttoncontentContainer_head{
     font-weight: 500;
@@ -353,24 +391,26 @@ height: 19rem;
 .mainproduct_Container{
     display: flex;  
     flex-direction: row;
-    margin-right: 2rem;
-    margin-left: 2rem;
+    align-self: center;
+   margin-bottom: 3rem;
 }
 .ourproductContainer{
     text-align: start;
     margin-top: 3rem;
-    margin-left: 3rem;
+    margin-left: 15rem;
+  
     }
    
 .pic_heading_container{
     margin-top: 1.5rem;
     margin-bottom: 3rem;      
-    text-align: start;   
+    text-align: start;  
+    margin-left: 15rem; 
     }
 .ourproduct_container{
    width: 20rem;
-   margin-left: 1rem;
-   margin-right: 1rem;
+   margin-left: 1.5rem;
+   margin-right: 1.5rem;
    }
    .ourproduct_container_one{
     width: 20rem;
@@ -392,14 +432,14 @@ height: 19rem;
     padding-top: 6rem;
     padding-bottom: 5rem;
     padding-left: 5rem;
-    width: 90%;
+ width: 75%; 
     min-width: 71rem;
-    margin-left: 3rem;
-    margin-right: 3rem; 
+    align-self: center;
+    /* margin-left: 3rem;
+    margin-right: 3rem;  */
 
     }
 .ingredient_content_container{
-    width: 45rem;
     font-size: 3.5rem;
     text-align: center;
   
