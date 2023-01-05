@@ -167,9 +167,8 @@ font-size: 1rem;
     border: 1.5px solid #06C167;
     font-size: 1rem;
     color: #57b15f;
-    width: 11rem;
+    width: 9rem;
     height: 3rem;
-    margin-left: 3rem;
     padding-left: 1rem; 
     margin-top: 2rem; 
 }
@@ -184,7 +183,20 @@ text-align: center;
 color: #FFFFFF;
 padding-top: 6rem;
 padding-bottom: 5rem;
+width: 100%;
 }
+.ingredient_content_container{
+    animation-name: ingredient;
+    animation-duration: 5s;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+  
+}
+@keyframes ingredient {
+    from {transform: translate(-50px);}
+    to {transform: translate(200px);}
+  }
 .ingredient_buttenContainer {
     text-align: center;
     border: none;
@@ -205,6 +217,7 @@ padding-bottom: 5rem;
     flex-direction: column;
     align-items: center;
     margin-top: 5rem;
+    width: 100%;
 }
 .foodies_container_head{
     font-weight: 500;
@@ -240,16 +253,25 @@ padding-bottom: 5rem;
 }
 .about_container{
     margin-bottom: 2rem;
+    text-decoration: none;
+  font-family: 'Inter';
+  font-size: 1.2rem;
+  line-height: 19px;
+  color: #1D1D1F;
+  text-align: center;
+
 }
+
 .company_container{
     margin-bottom: 2rem;
 }
+
 .get_container_para{
     width: 18rem;
     text-align: center;
     padding-bottom: 2rem;
     font-size: 0.8rem;
-    margin-left: 5rem;
+    margin-left: 3rem;
 }
 .mainbuttoncontainer{
     display: flex;
@@ -266,7 +288,7 @@ padding-bottom: 5rem;
     color: #1D1D1F;
     opacity: 0.51;
     margin-bottom: 1rem;
-    margin-left: 5rem;
+    margin-left: 3rem;
     
 }
 .subscribebutton_container{
@@ -278,7 +300,7 @@ padding-bottom: 5rem;
     font-size: 1.2rem;
     font-family: 'Inter';
     color: #FFFFFF;
-    margin-left: 5rem;
+    margin-left: 3rem;
 }
 .copy{
     font-size: 0.8rem;
@@ -442,8 +464,18 @@ width: 50%;
 .ingredient_content_container{
     font-size: 3.5rem;
     text-align: center;
+    animation-name: ingredient;
+    animation-duration: 5s;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
   
 }
+@keyframes ingredient {
+    from {transform: translate(-200px);}
+    to {transform: translate(700px);}
+  }
+
 .ingredient_buttenContainer {
     text-align: center;
     border: none;
@@ -521,3 +553,4 @@ text-align: start;
    margin-left: 0;
 }
 }         
+

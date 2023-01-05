@@ -7,6 +7,7 @@ flex-wrap: wrap;
 margin-left: 1rem;
 padding-bottom: 1.5rem;
 border-bottom: 1.5px solid rgba(112, 112, 112,.15);
+width: 100%;
 }
 .subiconContainer{
 width: 11rem;  
@@ -224,9 +225,24 @@ margin-left: 10rem;
 
 } 
 @media screen and (min-width: 768px){
+
+   
+      .iconContainer{
+        display: flex;
+        flex-direction: column;
+        width: 4rem; 
+        height: 4rem;
+        background: #F3FCF7; 
+        border-radius: 0.5rem; 
+        margin-left: 1rem;
+        margin-bottom: 1rem; 
+        }
+        .icon_contentContainer{
+          width: 14rem;
+        } 
   .subiconContainer{
-    width: 11rem;  
-    height: 13rem; 
+    width: 15rem;  
+    height: 17rem; 
     display: flex; 
     flex-direction: row;
     text-align: start;
@@ -243,6 +259,7 @@ margin-left: 10rem;
       .icon_contentContainer_para{
       text-align: start;
       padding-left: 1rem;
+      font-size: 1rem;
       }
 .fruit_veg_container{
  display: flex;
@@ -348,7 +365,7 @@ justify-content: space-evenly;
      }
 
 }
-@media screen and (min-width: 768px){
+/* @media screen and (min-width: 1200px){
   .subiconContainer{
     width: 15rem;  
     height: 17rem;    
@@ -369,4 +386,107 @@ justify-content: space-evenly;
         .icon_contentContainer{
           width: 14rem;
         } 
-}
+        .fruit_veg_container{
+          display: flex;
+         flex-direction:row;
+         justify-content: space-evenly;
+         margin-bottom: 2rem;
+         width: 100%;
+         align-self: center;
+          } */
+          /* .fruit_veg_picContainer{
+           background-color: #F3FAFB;
+           position: relative;
+           height: 30rem;
+           width: 36%;
+           max-width: 50rem;
+          }
+          .fruit_veg_picture{    
+          width: 80%;
+          max-width: 40rem;
+          position: absolute;
+          top: 0;
+          left: 50%;
+          transform: translateX(-50%); 
+          height: 30rem;
+          } 
+         .bullet_container{
+          width: 40%;     
+         }
+         
+         .benefitContainer{
+         font-weight: 600;
+         font-size: 1rem;
+         color: #1D1D1F;
+         margin-top: 3rem;
+         text-align: start;
+         margin-left: 5rem;
+         }
+         .list_heading_container{
+               margin-top: 1.5rem;
+               margin-bottom: 3rem;      
+               font-weight: 600;
+               font-size: 2.8rem;
+               color: #1D1D1F; 
+               text-align: start;
+               margin-left: 5rem;     
+               }
+               .list_container{
+               margin-left: 2rem;    
+               }  */
+              
+               /* Fruit-juice part */
+         /* .fruitjuiceContainer{
+          display: flex; 
+         flex-direction: row-reverse;  
+         justify-content:space-evenly; 
+         width: 100%; 
+         align-self: center;
+         }
+         .fruit_juice_pic_container{
+           background-color: #F3FAFB;
+           position: relative;
+           height: 32rem;
+           width: 34%;
+           max-width: 50rem;  
+           }
+           .fruit_juice_picture{
+             width: 80%;
+             max-width: 40rem;
+             position: absolute;
+             top: 0;
+             left: 50%;
+             transform: translateX(-36%); 
+             height: 28rem;
+           
+           }
+         .veggies_number_container{
+            width: 50%;   
+         }
+         .number_heading_container{
+           width: 80%; 
+           text-align: start;
+           margin-left: 5rem;      
+         }
+              
+         .mainNumberConatiner{
+         display: flex;
+         flex-direction: row;
+         justify-content: space-evenly;
+          width: 80%; 
+         }
+              .second_buttenContainer {
+              text-align: center;
+              border: none;
+              width: 30%; 
+              height: 5rem;
+              background: #57b15f;
+              font-size: 1.2rem;
+              font-family: 'Inter';
+              color: #FFFFFF;
+              margin-top: 2rem;
+              margin-bottom: 4rem;
+              margin-left: 4rem;
+              }
+         
+} */
