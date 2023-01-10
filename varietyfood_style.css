@@ -183,16 +183,17 @@ padding-bottom: 5rem;
 width: 100%;
 }
 .ingredient_content_container{
-animation-name: ingredient;
+ animation-name: ingredient;
 animation-duration: 5s;
 animation-fill-mode: both;
 animation-iteration-count: infinite;
 animation-direction: normal;
+overflow: hidden;
 }
 @keyframes ingredient {
 from {transform: translate(-50px);}
 to {transform: translate(200px);}
-}
+} 
 .ingredient_buttenContainer {
 display: flex;
 justify-content: center;
@@ -448,6 +449,7 @@ animation-duration: 5s;
 animation-fill-mode: both;
 animation-iteration-count: infinite;
 animation-direction: normal;
+overflow: hidden;
 }
 @keyframes ingredient {
 from {transform: translate(-200px);}
@@ -625,6 +627,7 @@ animation-duration: 5s;
 animation-fill-mode: both;
 animation-iteration-count: infinite;
  animation-direction: normal;
+ overflow: hidden;
 }
 @keyframes ingredient {
 from {transform: translate(-200px);}
